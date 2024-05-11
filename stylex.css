@@ -1,0 +1,448 @@
+@charset "utf-8";
+/* CSS Document */
+h1,h2,h3,body,ul, ol { margin: 0px; padding: 0px;}
+ul, ol{	list-style-type: none;}
+
+
+
+body,html {
+	font-family: RobotoDraft, Roboto, sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-color: #CCCCCC;
+	margin: 0px;
+	padding-left: 2px;
+	padding-right: 3px;
+	text-shadow: 0 0.1px 0.1px rgba(0,0,0,0.4);	
+}
+
+
+@font-face{;
+    font-family:"KFGQPC Uthman Taha Naskh Bold";
+    src:url("fonts.ttf")
+}
+
+table {
+	margin: auto;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+h2 { width: auto; padding-bottom: 5px;     padding-top: 5px;     font-size: 22px;     margin-bottom: 10px;     text-align: right;  background-color: #761D0B;   border-style: solid;     border-bottom: double #666;     border-top: double;     border-left: 0px;     border-right: 0px;     color:#E8F200;		border-radius: 0px;     line-height: 1;     font-family: "KFGQPC Uthman Taha Naskh Bold" }
+
+
+
+a, a:link, a:active, a:visited {
+	text-decoration: none;
+	color: #5A4C4C;
+	font-weight: bold;
+}
+#isi ul, #isi ol {s
+	margin-left: 20px;
+	list-style-type: square;
+	margin-bottom: 10px;
+}
+#isi li {
+	margin-left: 20px;
+	list-style-type: square;
+}
+
+h3 a:link, h3 a:active, h3 a:visited,h3 a {
+	color: #5A4C4C;
+	display: block;
+	height: 15px;
+	margin: 5px;
+	padding: 0px;
+	font-size: 15px;
+}
+#header h2 a:link, #header h2 a:active, #header h2 a:visited, #header h2 a {
+	display:block;
+	color: #fff;
+}
+
+h1 { margin-bottom: 15px; }
+img {max-width: 100%}
+#header {
+	display:none
+}
+#headbox {
+	display:none;
+}
+#headbox h2 {
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-left: 15px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4)
+	z-index: +1;
+
+}
+
+#mn,#mnj {position: fixed;bottom:38px;z-index:1000;right:8%;width:180px;height:325px;overflow:auto;border-radius: 10px;max-height:60%;
+	box-shadow:-2px -2px 8px #bfb18a, 2px 2px 20px #bfb18a;;background:#ffffff;border:1px dashed #bfb18a;display:none;padding:10px;
+}
+	
+#mn a,#msc a{ text-decoration:none;color:#246703;font-size:18px} 
+
+
+ #tejaul {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tejaul li a {border-radius:15px;
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+background: #E6E6FA;    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 12px; /* Increase the font-size */
+    color: #000000; /* Add a black text color */
+	font-weight:bold;
+    display: block; /* Make it into a block element to fill the whole list */
+	    background-image: url('h.png'); /* Add a search icon to input */
+    background-position: 5px 5px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+background-size: 30px 30px;padding-left:18px;
+}
+
+#tejaul li a.header {
+    background-color: #e2e2e2; /* Add a darker background color for headers */
+    cursor: default; /* Change cursor style */
+}
+
+#tejaul li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+
+#footer {
+	width: 100%;
+	background-color: #FD9411;
+	background-repeat: no-repeat;
+	height: 55px;
+	margin: 0px;
+	padding: 0px;
+	box-shadow:2px 0 10px rgba(0,0,0,0.4);
+	text-align: center;
+}
+#footerbox {
+	margin: 0px;
+	padding-top: 15px;
+	padding-left: 8px;
+	text-align: center;
+}
+#footerbox p {
+	color: #FFFFFF;
+	text-align: center;
+}
+#footerbox h3 {
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4)
+}
+#gohome{
+	float: left;
+	padding: 0px;
+	width: 32px;
+	height: 32px;
+	margin-top: 7px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 7px;
+}
+.imgfloat { float: left; margin-right: 5px;}
+.kotakmenu {
+	padding: 10px;
+	height: 50px;
+	box-shadow:0 2px 7px rgba(0,0,0,0.4);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-bottom: 6px;	
+	
+}
+
+@media only screen and (min-width: 500px) {
+  #homemenu li { float: left; width: 100%; }
+}
+#homemenu li{
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display:block;
+
+}
+.imgthumb {
+	margin-right: 6px;
+	box-shadow:0 2px 7px rgba(0,0,0,0.4);
+	height: 49px;
+	width: 49px;
+	border-radius: 5px;
+}
+.imgjudul {
+	box-shadow:0 2px 7px rgba(0,0,0,0.4);
+	display: block;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 7px;
+	margin-left: auto;
+	height: 120px;
+	width: 300px;
+}
+	
+#home {
+	padding-top: 65px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+
+}
+#home h3{
+	padding-top: 5px;
+
+}
+#home h2{
+	color: #5A4C4C;
+	display: block;
+	height: 25px;
+	margin: 12px;
+	padding: 0px;
+	font-size: 17px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E8F8FF;
+
+}
+
+#single {
+	padding-top: 70px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+#isi {
+	padding:10px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	text-align: justify;
+	box-shadow:0 2px 7px rgba(0,0,0,0.4);
+}
+#isi h3{
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: capitalize;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E8F8FF;
+	font-size: 15.5px;
+
+}
+
+#isi h2{
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: capitalize;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E8F8FF;
+	font-size: 15.5px;
+
+}
+
+.kosong{
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+.alignimg{
+	display: block;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	width: 200px;
+	box-shadow:0 2px 5px rgba(0,0,0,0.4);
+}
+.kardus{
+	text-align:center;
+	width:100%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	clear: both;
+}
+.navigasi{
+	text-align:center;
+	width:100%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	clear: both;
+}
+p{
+	text-align:justify;
+	margin:0;
+	padding-top: 10;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+.desc{	font-size: 12px;}
+.meta {
+	padding: 2px;
+	text-align:center;
+	margin-top: 4px;
+	color: #999;
+	font-size: 10px;
+}
+
+img.back {
+    float: left;
+    margin-top: 14px;
+	margin-left: 14px;
+	margin-right: 17px;
+	height: 25px;
+	width: 25px;	
+}
+
+img.menu {
+    float: left;
+    margin-top: 14px;
+	margin-left: 14px;
+	margin-right: 17px;
+	height: 25px;
+	width: 25px;	
+}
+img.morevert {
+    float: right;
+	height: 25px;
+	width: 25px;
+}
+
+.note-green {
+    margin: 0.6em 0;
+    padding: 16px;
+    background-color: #D3F5D3;
+    color: #159415;
+	text-align: center;
+}
+
+
+
+#rig {
+	max-width:900px;
+	margin:0 auto; /*center aligned*/
+	padding:0;
+	font-size:0; /* Remember to change it back to normal font size if have captions */
+
+
+	list-style:none;
+	background-color:none;
+}
+#rig li {
+	display:inline-block;
+	*display:inline;/*for IE6 - IE7*/
+	width:25%;
+	vertical-align:middle;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+/* The wrapper for each item */
+.rig-cell {
+	margin:12px;
+	box-shadow:0 1px 4px rgba(0,0,0,0.4);
+	padding:16px;
+	border:none;
+	color:#555;
+	background-color:white;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	position: relative;
+	overflow:hidden;
+}
+
+.rig-cell h3 {
+	font-size:18px;
+	font-family:'Oswald', sans-serif;
+	font-weight:normal;
+}
+
+/* If have the image layer */
+.rig-img {
+	display:block;
+	border:none;
+	width:100%;
+	height:0;
+    padding-top:83.461538%;
+    background-size:cover;
+	background-color:white;
+	background-image:url(img/web-ui.jpg);
+    background-repeat:no-repeat;
+	position:relative; /* Make its pseudo :after to be relative to it. */
+}
+.rig-img:after{
+	position:absolute;
+	top:20px;right:20px;bottom:20px;left:20px;
+	border:1px solid #fff;
+	content:'+';
+	color:white;
+	padding-top:14%;
+	font-size:30px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	transition:all 0.3s;
+	transform:scale(0);
+}
+
+#rig li:hover .rig-img:after {
+	opacity:1;
+	transform:scale(1);
+}
+
+/* If have the overlay layer */
+.rig-overlay {
+	position: absolute;
+	display:block;
+	top:0;left:0;bottom:0;right:0;
+	margin:auto;
+	background:white;
+	background-size:50px 50px;
+	opacity:0;
+	filter:alpha(opacity=0);/*For older IE*/
+	transition:all 0.3s;
+}
+#rig li:hover .rig-overlay {
+	opacity:0.5;
+}
+
+@media (max-width: 9000px) {
+	#rig li {width:25%;}
+}
+
+@media (max-width: 800px) {
+	#rig li {width:33.33%;}
+}
+
+@media (max-width: 500px) {
+	#rig li {width:50%;}
+}
+
+@media (max-width: 350px) {
+	#rig li {width:100%;}
+}

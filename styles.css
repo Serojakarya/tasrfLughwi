@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html {
+	font-family: Open Sans, sans-serif, Arial, Helvetica;
+	font-size: 17px;
+	color: #000000;
+	background: #;
+	widht: 100%;
+}
+
+a, a:link, a:active, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h3 { padding-bottom: 5px;     padding-top: 5px;     font-size: 22px;     margin-bottom: 10px;     text-align: center;  background-color: #006e2e; color: #E2B574;  border-style: solid;     border-bottom: double #D84E68;     border-top: double #D84E68;      border-left: 0px;  border-right: 0px;  border-center: 0px;     border-radius: 0px;         font-family: "sans;georgia;arial" }
+
+h2 { padding-bottom: 5px;     padding-top: 5px;     font-size: 17px;     margin-bottom: 10px;     text-align: center;  background-color: #E2B574; color: #105047;  border-style: solid;     border-bottom: double #666;     border-top: double;     border-left: 0px;  border-right: 0px;  border-center: 0px;     border-radius: 0px;         font-family: "Lato, sans-serif;" }
+
+
+@font-face {
+    font-family: KFGQPC Uthman Taha Naskh Bold;
+    src: url("taklim/js/font.ttf")
+}
+
+.arab {
+    font-family: KFGQPC Uthman Taha Naskh Bold;
+    text-align: left;
+
+}
+
+#simple {
+    margin: 0;
+    padding: 0;
+
+}
+
+#simple li {
+    background: #266455;
+    border-bottom: 7px solid #fff;
+    list-style: none;
+    padding: 0.5em;
+    text-align: center;
+
+}
+
+#simple li:hover {
+    background: #808080;
+}
+
+#simple li a {
+    color: #266455;
+    display: block;
+    text-decoration: none;
+}
+
+
+
